@@ -10,15 +10,184 @@
  Text Domain:  accelerate-theme-child
 */
 @import url("../accelerate-theme/style.css");
-body {
-	background: red;
-}
 
 /* Homepage Styles */
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
 }
 
+h1 {
+    font-family: 'sans-serif';
+}
+
 #masthead {
     background: none repeat scroll 0 0 #45ac9d;
+}
+
+#masthead a {
+    font-weight: none;
+}
+
+#masthead nav ul li {
+    display: inline;
+    margin: 15px;
+    text-transform: uppercase;
+}
+
+.blog-post {
+    width: 50%;
+    float: left;
+}
+
+.blog-post h4 {
+    font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+
+.blog-post h2 {
+	font-size: 24px;
+	font-family: 'Montserrat';
+   	font-weight: bold;
+}
+
+.blog-post .read-more-link {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+.twitter-app {
+    float: right;
+    width: 300px;
+}
+
+aside.case-study-sidebar {
+    float: left;
+    width: 300px;
+    margin-top: 50px;
+}
+
+div.case-study-sidebar a {
+    font-weight: bold;
+}
+
+div.case-study-images {
+    float: right;
+    width: 600px;
+    margin-top: 20px;
+}
+
+div.case-study-images img {
+    
+    margin-bottom: 50px;
+    border: 1px solid #dddddd;
+}
+
+.homepage-featured-work {
+    list-style-type: none;
+}
+
+.featured-work h4 {
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.individual-featured-work {
+    display: inline;
+}
+
+/* Ninja Forms */
+#ninja_forms_field_1_div_wrap {
+    float: left;
+    width: 49%;
+}
+
+#ninja_forms_field_2_div_wrap {
+    float: right;
+    width: 49%;
+}
+
+/* About Page */
+.about-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: 250px;
+    margin: 0 0 80px;
+    padding: 70px 0;
+}
+
+.about-page h2, p {
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    line-height: 150%;
+}
+
+.aboutpage-hero h2 {
+	color:white;
+	font-weight:bold;
+	text-align: center;
+}
+
+.aboutpage-hero span {
+    color: #45ac9d;
+}
+
+.aboutpage-title {
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.services-sidebar {
+    float: left;
+    width: 65%;
+}
+
+.services-images {
+    float: left;
+    width: 30%;
+}
+
+.services:nth-child(odd) .services-images {
+    float: right;
+}
+
+.services:nth-child(odd) .services-sidebar {
+    float: right;
+}
+
+/* Page 404 */
+.page-404 ah2.page-404, a.page-404:visited, a.page-404:link, a.page-404:hover {
+    color: #45ac9d;
+}
+
+.page-404 h2 {
+    font-size: 200%;    
+}
+
+.page-404 a, .page-404 a:visited, .page-404 a:link, .page-404 a:hover {
+    font-weight: bold;
+}
+
+.page-404 p {
+    text-align: left;
+}
+
+.page-404-right {
+    float: right;
+    width: 500px;
+    margin-top: 120px;
+    margin-bottom: 150px;
+}
+
+.page-404-left {
+    float: left;
+    width: 100px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 100px;
 }
