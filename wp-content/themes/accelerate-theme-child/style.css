@@ -20,6 +20,10 @@ h1 {
     font-family: 'sans-serif';
 }
 
+.button {
+    font-family: inherit;
+}
+
 #masthead {
     background: none repeat scroll 0 0 #45ac9d;
 }
@@ -39,30 +43,45 @@ h1 {
     float: left;
 }
 
-.blog-post h4 {
+.blog-post h4, .widget-title {
     font-size: 16px;
-	font-family: 'Montserrat';
 	color: #a6a6a6;
 	text-transform: uppercase;
+	margin: 36px 0 12px;
 }
 
-.blog-post h2 {
+.blog-post h2, .widget-user {
 	font-size: 24px;
-	font-family: 'Montserrat';
    	font-weight: bold;
 }
 
-.blog-post .read-more-link {
+.read-more-link {
 	font-size: 24px;
-	font-family: 'Montserrat';
 	font-weight: bold;
 	color: #45ac9d;
 	text-transform: uppercase;
 }
 
-.twitter-app {
+.twitter-and-newsletter {
     float: right;
-    width: 300px;
+    width: 50%;
+}
+
+.widget ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.mc4wp-form-fields p {
+    display: inline;
+}
+
+input[type=submit] {
+    color: #fff;
+    background-color: #45ac9d;
+    padding: 10px 50px 10px 50px;
+    border: none;
+    font-weight: bold;
 }
 
 aside.case-study-sidebar {
@@ -99,6 +118,9 @@ div.case-study-images img {
 
 .individual-featured-work {
     display: inline;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
 }
 
 /* Ninja Forms */
@@ -120,7 +142,7 @@ div.case-study-images img {
     padding: 70px 0;
 }
 
-.about-page h2, p {
+h2.about-page p.about-page {
     text-align: center;
     margin-left: 60px;
     margin-right: 60px;
@@ -190,4 +212,15 @@ div.case-study-images img {
     margin-top: 150px;
     margin-bottom: 150px;
     margin-left: 100px;
+}
+
+/* Footer */
+
+.main-color {
+    color: #45ac9d;
+}
+
+/* Contact */
+#nf_submit_1 > input:nth-child(1) {
+    float: right;
 }

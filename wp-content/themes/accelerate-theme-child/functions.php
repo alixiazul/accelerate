@@ -74,3 +74,14 @@ function accelerate_theme_child_widget_init() {
 	
 }
 add_action( 'widgets_init', 'accelerate_theme_child_widget_init' );
+
+// Remove 'Accelerate' in the description - call in footer.php ONLY
+function green_accelerate_footer(){
+	
+	add_filter( 'option_blogdescription', 'accelerate_change_description_footer', 10, 2 );
+	function accelerate_change_description_footer( $description ) {
+			$description = str_replace('Accelerate', '', $description);
+			return $description;
+	} 
+
+};
